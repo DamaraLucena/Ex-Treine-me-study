@@ -4,6 +4,7 @@
 }
 
 body{
+  font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -21,19 +22,41 @@ nav{
   
   border: 1px solid;
   border-radius: 0.62rem;
-
+  
   display: flex;
   justify-content: space-between;
-
+  
   margin-bottom: 3.43rem;
 }
 
 ul{
   list-style: none;
-
+  
   display: flex;
   gap: 6.25rem;
+}
 
-  justify-content:center;
-  align-items: center;
+ul li a {
+  text-decoration: none;
+  color: #1F1534;
+}
+
+ul li a:hover{
+  font-weight: bold;
+}
+
+h1, ul {
+  font-family: 'Mulish', sans-serif;
+}
+
+/* Main */
+
+h1 {
+  font-size: 3.06rem;
+  line-height: 3.5rem;
+  color: #000000;
+}
+
+h1 span{
+
 }
