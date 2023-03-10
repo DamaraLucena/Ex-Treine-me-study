@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+}
+
+/* Page */
+.page {
+  width: 62.5rem;
+  margin: 4.06rem auto 0;
+}
+
+/* Nav */
+
+nav{
+  
+  padding: 0.62rem;
+  
+  border: 1px solid;
+  border-radius: 0.62rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 3.43rem;
+}
+
+ul{
+  list-style: none;
+
+  display: flex;
+  gap: 6.25rem;
+
+  justify-content:center;
+  align-items: center;
+}
