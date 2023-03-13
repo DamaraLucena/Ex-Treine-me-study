@@ -1,7 +1,7 @@
 <h1 align="center"> Treine Me</h1>
 
 <p align="center">
-<a href="https://www.rocketseat.com.br/boracodar"> Projeto 02</a> Promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+Projeto 02 Promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
 </p>
 
 <p align="center">
