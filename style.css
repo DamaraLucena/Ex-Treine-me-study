@@ -6,6 +6,9 @@
 body{
   font-family: 'Open Sans', sans-serif;
 
+  height: 100vh;
+
+  background: linear-gradient(0deg, rgba(185,63,63,0.3533788515406162) 0%, rgba(255,255,255,1) 100%);
 }
 
 /* Page */
@@ -60,6 +63,7 @@ main{
   align-items: center;
   justify-content: space-between;
 
+  gap: 50px;
 }
 
 /* Section */
@@ -116,7 +120,7 @@ button:hover{
   background: #b93f3f;
 }
 
-
+/* Footer */
 
 footer {
   font-size: 1rem;
