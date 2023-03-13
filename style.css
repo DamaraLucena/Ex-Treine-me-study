@@ -36,13 +36,17 @@ ul{
   gap: 6.25rem;
 }
 
-ul li a {
+a {
+  text-transform: uppercase;
   text-decoration: none;
   color: #1F1534;
+
+  font-size: 1.05rem;
 }
 
 ul li a:hover{
   font-weight: bold;
+  color: #b93f3f;
 }
 
 h1, ul {
@@ -51,12 +55,49 @@ h1, ul {
 
 /* Main */
 
+main{
+  display: flex;
+  align-itens: center;
+  justify-content: space-between;
+
+}
+
 h1 {
   font-size: 3.06rem;
   line-height: 3.5rem;
-  color: #000000;
+  color: #1F1534;
+
+  font-weight: normal;
+
+  width: 30.6rem;
 }
 
 h1 span{
+  color: #b93f3f;
+  font-weight: bold;
+}
 
+p {
+  margin: 40px 0 40px;
+
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: #7D7987;
+}
+
+button{
+  text-transform: uppercase;
+  font-family: 'open Sans', sans-serif;
+}
+
+footer {
+  font-size: 1rem;
+  line-height: 1.75rem;
+
+  text-align: center;
+  margin-top: 80px;
+}
+
+footer a {
+  font-weight: bold;
 }
